@@ -1,12 +1,12 @@
 import eyeImage from "./Contants/bi_eye-slash-fill.svg";
 import groupimage from "./Contants/undraw_authentication_re_svpt 1 (1).png";
-import { Apps, Rectangle, Rectangle1, Rectangle2, Rectangle3, Rectangle4, Rectangle5, RectangleRemember, RectangleRememberFlex} from "./Contants/Components/Div";
-import { GroupImage, EyeImg } from "./Contants/Components/Images";
-import { LoginButton } from "./Contants/Components/Buttons";
-import { H1, H1R, H2R, HDont } from "./Contants/Components/H1";
-import { Label } from "./Contants/Components/Label";
-import { Input } from "./Contants/Components/Input";
-import { Hregister } from "./Contants/Components/ATag";
+import { Apps, Rectangle, Rectangle1, Rectangle2, Rectangle3, Rectangle4, Rectangle5, RectangleRemember, RectangleRememberFlex} from "./Components/Div";
+import { GroupImage, EyeImg } from "./Components/Images";
+import { LoginButton } from "./Components/Buttons";
+import { H1, H1R, H2R, HDont } from "./Components/H1";
+import { Label } from "./Components/Label";
+import { Input } from "./Components/Input";
+import { Hregister } from "./Components/ATag";
 
 
 
