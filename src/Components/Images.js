@@ -16,7 +16,7 @@ position: absolute;
 ${"" /* margin-top:1rem; */}
 top: 50%;
 transform: translateY(-50%);
-margin-left: 31rem;
+margin-left: 41rem;
 @media (max-width: 768px) {
   margin-left: -3rem;
 }
