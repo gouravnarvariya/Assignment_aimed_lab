@@ -21,7 +21,7 @@ export const  Apps = styled.div`
 `; 
  
 export const Rectangle = styled.div`
-width: 42.4375rem;
+width: 56.4375rem;
 height: 44.0625rem;
 flex-shrink: 0;
 border-radius: 0.75rem;
@@ -37,7 +37,7 @@ position: relative;
 `;
 
 export const Rectangle1 = styled.div`
-width: 32.5rem;
+width: 42.5rem;
 height: 20.6875rem;
 flex-shrink: 0;
 margin-top: 4.69rem;
@@ -95,10 +95,10 @@ export const Rectangle5 = styled.div`
 display: flex;
       align-items: center;
      
-      margin-left : 5.2rem;
+      margin-left : 9.2rem;
       margin-bottom : 10px;
       justify-content: flex-end
-      width: 42.5rem;
+      
   height: 3.5rem;
   @media(max-width:768) {
     width:100%;
