@@ -7,7 +7,7 @@ font-family: Poppins;
 font-size: 3rem;
 font-style: normal;
 font-weight: 700;
-line-height: 110%;
+${'' /* line-height: 110%; */}
 @media (max-width: 768px) {
 }
 `;

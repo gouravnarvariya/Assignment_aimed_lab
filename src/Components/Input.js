@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Input = styled.input`
-width: 51.5rem;
+width: 31.5rem;
 height: 3.5rem;
 flex-shrink: 0;
 border-radius: 0.5rem;
@@ -12,7 +12,7 @@ font-size: 1.125rem;
 font-style: normal;
 font-weight: 400;
 line-height: 35px;
-padding: 10px 40px 10px 10px;
+padding: 5px 20px 5px 5px;
 font-color: rgba(115, 123, 134, 1);
 @media (max-width: 768px) {
   width: 90%;

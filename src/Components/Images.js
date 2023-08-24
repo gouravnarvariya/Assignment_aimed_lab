@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 export const GroupImage = styled.img`
-width: 33.95119rem;
+width: 23.95119rem;
 height: 39.60006rem;
-background: purple;
 @media (max-width: 768) {
-  width: 100%;
-  height: auto;
+  width: 10%;
+  height: 10rem;
 }
 `;
 
@@ -17,7 +16,7 @@ position: absolute;
 ${"" /* margin-top:1rem; */}
 top: 50%;
 transform: translateY(-50%);
-margin-left: 51rem;
+margin-left: 31rem;
 @media (max-width: 768px) {
   margin-left: -3rem;
 }

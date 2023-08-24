@@ -3,13 +3,13 @@ export const  Apps = styled.div`
   flex: auto;
   flex-direction: row;
   display: inline-flex;
-  padding: 2.5rem 2.5rem 2.5rem 8.875rem;
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
   justify-content: flex-end;
   align-items: center;
-  gap: 9.23631rem;
+  gap: 3.23631rem;
   background: white;
   width: auto;
-  height: auto;
+  height: screen;
   @media (max-width: 768px) {
     width: 100%;
     height: auto;
@@ -21,8 +21,8 @@ export const  Apps = styled.div`
 `; 
  
 export const Rectangle = styled.div`
-width: 65.4375rem;
-height: 60.0625rem;
+width: 42.4375rem;
+height: 44.0625rem;
 flex-shrink: 0;
 border-radius: 0.75rem;
 box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.16);
@@ -37,10 +37,10 @@ position: relative;
 `;
 
 export const Rectangle1 = styled.div`
-width: 52.5rem;
-height: 34.6875rem;
+width: 32.5rem;
+height: 20.6875rem;
 flex-shrink: 0;
-margin-top: 12.69rem;
+margin-top: 4.69rem;
 margin-bottom: 12.69rem;
 margin-left: 6.94rem;
 margin-right: 7rem;
@@ -95,11 +95,16 @@ export const Rectangle5 = styled.div`
 display: flex;
       align-items: center;
      
-      margin-left : 15.2rem;
+      margin-left : 5.2rem;
       margin-bottom : 10px;
       justify-content: flex-end
-      width: 54.5rem;
+      width: 42.5rem;
   height: 3.5rem;
+  @media(max-width:768) {
+    width:100%;
+    height:auto;
+    margin-left : 3rem;
+  }
 `;
 
 export const RectangleRemember = styled.div`
@@ -121,7 +126,7 @@ align-items: center;
 align-content: center;
 margin-bottom: 20px;
 margin-top: 20px;
-@media (media-width: 768) {
+@media (max-width:768) {
   .RectangleRememberFlex {
     display: flex;
     align-items: center;
